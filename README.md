@@ -9,7 +9,7 @@ A single pretrained GPT model can use both p-tuning and prompt-tuning. While you
 We will be using p-tuning to teach our GPT model how to do Question Answering. The dataset we will use is the SQuAD reading comprehension dataset, consisting of questions posed by crowd workers on a set of Wikipedia articles, where the answer to every question is a segment of text. More information on SQuAD can be found on their website or in their paper by Rajpurkar et. al "Know What You Don’t Know: Unanswerable Questions for SQuAD".
 
 ## System Requirements:
-* Opeating System: Ubuntu 22.04
+* Operating System: Ubuntu 22.04
 * CPU requirements: None, tested with Intel&reg; Xeon&reg; Gold 6240R CPU @ 2.40GHz
 * GPU requirements: Any NVIDIA training GPU, tested with NVIDIA A100-40GB
 * NVIDIA driver requirements: Latest driver version
