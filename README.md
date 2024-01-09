@@ -1,6 +1,8 @@
 # NVIDIA AI Workbench: Introduction
 This is an [NVIDIA AI Workbench](https://developer.nvidia.com/blog/develop-and-deploy-scalable-generative-ai-models-seamlessly-with-nvidia-ai-workbench/) example Project that demonstrates how to p-tune and prompt tune a NeMo-Megatron LLM using the NeMo Framework. We will first p-tune a GPT model on sentiment analysis and intent and slot classification tasks. Then, we will show how to add the SQuAD question-answering task to the same model we already p-tuned once. Users in the [AI Workbench Early Access Program](https://developer.nvidia.com/ai-workbench-early-access) can get up and running with this Project in minutes.
 
+Have questions? Please direct any issues, fixes, suggestions, and discussion on this project to the DevZone Members Only Forum thread [here](https://forums.developer.nvidia.com/t/support-workbench-example-project-nemo-p-tuning/278370/1). 
+
 ## Project Description
 P-tuning and prompt tuning are both methods that are parameter efficient alternatives to fine-tuning pretrained language models. Our NeMo implementation makes it possible to use one pretrained GPT model on many downstream tasks without needing to tune the model’s full set of parameters. It also allows for adding new tasks to your model without overwriting or disrupting previous tasks for which the model has already been p-tuned/prompt-tuned. Because the original model parameters are frozen and never altered by either method, p-tuning/prompt-tuning also avoid catastrophic forgetting issues often encountered when fine-tuning models.
 
